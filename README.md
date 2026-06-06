@@ -21,3 +21,13 @@ The interface is styled with Tailwind CSS so it works smoothly whether a student
 2. **Going Serverless:** Once the form is submitted, the frontend kicks off a `fetch` request to **API Gateway**. 
 3. **Processing & Storage:** API Gateway immediately passes the data to an **AWS Lambda** function, which processes the request and writes the complaint details directly into **DynamoDB**.
 4. **Clean User Experience:** The UI updates instantly with a success message without forcing the page to refresh.
+
+## What I Learned
+- Serverless architecture on AWS
+- IAM roles and cloud permissions
+- CORS and how browsers handle security
+- Connecting frontend to cloud backend
+- Debugging real cloud errors
+
+## Author
+Ajay — [LinkedIn](linkedin.com/in/ajay-thanigai-08015b3a2)
